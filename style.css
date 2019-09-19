@@ -38,8 +38,24 @@ body
 nav
 {
     font-size: 1.3em;
+    border-bottom: 1px solid grey;
 }
 
+.nav-item a
+{
+    color:rgba(0, 0, 0, 0.644)!important;
+}
+
+.nav-item a:hover
+{
+    color: rgb(86, 149, 221)!important;
+    border: 2px solid rgb(86, 149, 221);
+}
+
+.navbar-toggler
+{
+    align-self: center;
+}
 
 
 
