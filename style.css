@@ -76,7 +76,6 @@ nav
 ----------------------------------------------------------------------------- */
 
 footer{
-background-color: dimgrey;
 color: lightgray; 
 }
 
@@ -180,3 +179,40 @@ main {
     border: 3px solid rgb(0,123,255);
 }
 
+    background: url(../Projet-Stage---1--/image/background-para.jpg) no-repeat fixed;
+    background-size: cover;
+    background-color: #e9e5e3;
+}
+
+.index-img-titre {
+    background-color: rgba(71, 181, 255, 0.603);
+    color: white;
+    font-weight: bolder; 
+}
+
+.index-img-description {
+    background-color: rgba(255, 255, 255, 0.87);
+    color:rgb(26, 25, 25)!important;
+    border-radius: 10px;
+}
+
+a.indexliens {
+color: white!important;
+background-color: rgba(71, 181, 255, 0.603);
+}
+
+a.indexliens:hover {
+text-decoration: none;
+background-color: rgba(71, 181, 255, 0.842);
+font-weight: bolder!important;
+letter-spacing: 1px;
+
+}
+
+/* ---------------------------------------------------- */
+
+.presentation {
+    background: url(../Projet-Stage---1--/image/Abstract-background-white-12.jpg) no-repeat fixed;
+    background-size: cover;
+    background-color: #e9e5e3;
+}
