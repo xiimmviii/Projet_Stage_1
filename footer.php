@@ -1,5 +1,5 @@
 <footer>
-    <div class="row m-4 pt-3 p-1">
+    <div class="row p-3">
         <div class="col-md-4 col-sm-10 offset-md-2">
             <div class="footerh3 pb-3"> Nom de la société </div>
             <div class="footeradresse"> Adresse ligne 1 <br> Adresse ligne 2 </div>
