@@ -20,7 +20,10 @@ body
 }
 
 
-
+p {
+    text-align: justify;
+    text-align-last: center;
+}
 
 
 
@@ -51,7 +54,7 @@ nav
 {
     color: rgb(86, 149, 221)!important;
     border: 2px solid rgb(86, 149, 221);
-    margin: -5px; /*pour rétablir la taille de la nav avec la border en hover*/
+    margin: -3px; /*pour rétablir la taille de la nav avec la border en hover*/
 }
 
 .navbar-toggler
@@ -191,6 +194,26 @@ letter-spacing: 1px;
     background-color: #e9e5e3;
 }
 
+
+.boutontel {
+    border-radius: 10px;
+    background-color: rgb(0,123,255);
+}
+
+.bottomdevis {
+    background: linear-gradient(#87baec, #badbee);
+}
+
+.btnrond {
+    border-radius: 50%;
+    font-size: 3em;
+    width:85px;
+	height:85px;
+}
+
+.localisation {
+    font-size: 1.1em;
+}
 /* ----------------------------------------------------------------------------
 
 ██████╗ ██████╗ ███╗   ██╗████████╗ █████╗  ██████╗████████╗
