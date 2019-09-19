@@ -3,7 +3,7 @@
     CONFIGURATION
 *********************************************************************************************/
 // destinataire du mail (l'artisan), si plusieurs destinataires : séparer par une virgule.
-$destinataire = 'magali.milbergue@hotmail.fr';
+$destinataire = 'magali.milbergue@gmail.com';
 
 // copie ? (envoie une copie au visiteur)
 $copie = 'non'; // 'oui' ou 'non'
@@ -52,12 +52,12 @@ if (!isset($_POST['envoi'])) {
     // formulaire envoyé, on récupère tous les champs.
     $nom     = (isset($_POST['nom']))     ? Rec($_POST['nom'])     : '';
     $email   = (isset($_POST['email']))   ? Rec($_POST['email'])   : '';
-    $email   = (isset($_POST['telephone']))   ? Rec($_POST['telephone'])   : '';
+    $telephone = (isset($_POST['telephone']))   ? Rec($_POST['telephone'])   : '';
     $objet   = (isset($_POST['objet']))   ? Rec($_POST['objet'])   : '';
     $message = (isset($_POST['message'])) ? Rec($_POST['message']) : '';
 
     // On va vérifier les variables et l'email ...
-    // $email = (IsEmail($email)) ? $email : ''; // soit l'email est vide si erroné, soit il vaut l'email entré
+    $email = (IsEmail($email)) ? $email : ''; // soit l'email est vide si erroné, soit il vaut l'email entré
 
     if (($nom != '') && ($email != '') && ($objet != '') && ($message != '')) 
     {
@@ -89,13 +89,19 @@ if (!isset($_POST['envoi'])) {
 
         // Envoi du mail
         $num_emails = 0;
-        $tmp = explode(';', $cible);
-        foreach ($tmp as $email_destinataire) {
-            if (mail($email_destinataire, $objet, $message, $headers))
+        // $tmp = explode(';', $cible);
+        // foreach ($tmp as $email_destinataire) {
+            if (mail($destinataire, $objet, $message, $headers))
+            {
                 $num_emails++;
-        }
+            }
+        // }
+        
+        echo $num_emails;
 
-        if ((($copie == 'oui') && ($num_emails == 2)) || (($copie == 'non') && ($num_emails == 1))) {
+        //  if ((($copie == 'oui') && ($num_emails == 2)) || (($copie == 'non') && ($num_emails == 1))) //mis en commentaire pour test
+        if ($num_emails == 1)
+        {
             echo '<p>' . $message_envoye . '</p>';
         } else {
             echo '<p>' . $message_non_envoye . '</p>';
