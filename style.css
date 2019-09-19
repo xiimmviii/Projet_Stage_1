@@ -110,3 +110,33 @@ a.footermail:hover {
     background-color: black;
     font-size: 0.8em;
 }
+
+a.copyright-a {
+    color: rgb(86, 149, 221);
+    text-decoration: none!important;
+}
+
+a.copyright-a:hover {
+    color: rgb(172, 200, 231);
+    text-decoration: none!important;
+    letter-spacing: 1px;
+    transition-duration: 1s;
+}
+
+
+/* ----------------------------------------------------------------------------
+
+██╗███╗   ██╗██████╗ ███████╗██╗  ██╗
+██║████╗  ██║██╔══██╗██╔════╝╚██╗██╔╝
+██║██╔██╗ ██║██║  ██║█████╗   ╚███╔╝ 
+██║██║╚██╗██║██║  ██║██╔══╝   ██╔██╗ 
+██║██║ ╚████║██████╔╝███████╗██╔╝ ██╗
+╚═╝╚═╝  ╚═══╝╚═════╝ ╚══════╝╚═╝  ╚═╝
+                                     
+----------------------------------------------------------------------------- */ 
+
+main {
+    background-image: url() fixed;
+    background-size: cover; 
+    
+}
