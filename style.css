@@ -47,4 +47,58 @@ body
 ██║     ╚██████╔╝╚██████╔╝   ██║   ███████╗██║  ██║
 ╚═╝      ╚═════╝  ╚═════╝    ╚═╝   ╚══════╝╚═╝  ╚═╝
                                                    
------------------------------------------------------------------------------ */  
+----------------------------------------------------------------------------- */
+
+footer{
+background-color: dimgrey;
+color: lightgray; 
+}
+
+.footerh3 {
+    font-size: 1.3em;
+    font-weight: bolder;
+    color: white;
+}
+
+.footeradresse {
+font-size: 1em;
+}
+
+.footercontact {
+    font-size: 0.8em;
+    }
+
+a.footertel {
+color: white!important;
+}
+
+a.footertel:hover {
+letter-spacing: 1px;
+transition-duration: 1s;
+text-decoration: none;
+}
+
+a.footermail {
+    color: white!important;
+}
+
+a.footermail:hover {
+    letter-spacing: 1px;
+    transition-duration: 1s;
+    text-decoration: none;
+}
+
+.boutonavis{
+    color: white;
+    background-color: rgba(71, 181, 255, 0.842);
+}
+
+.boutonavis:hover {
+    color: white;
+    background-color: rgba(230, 201, 38, 0.842);
+}
+
+.copyrow {
+    background-color: black;
+    font-size: 0.8em;
+}

@@ -1,9 +1,10 @@
-<footer class="bg-info">
-    <div class="row m-3 mb-4 p-1">
+<footer>
+    <div class="row m-4 pt-3 p-1">
         <div class="col-md-4 col-sm-10 offset-md-2">
+            <div class="footerh3 pb-3"> Nom de la société </div>
             <div class="footeradresse"> Adresse ligne 1 <br> Adresse ligne 2 </div>
-            <div class="footercontact"> Téléphone : <span class="footertel"><a href="tel:+33000000000"> 00.00.00.00.00</a> </span></div>
-            <div class="footercontact"> Mail : <span class="footermail"><a href="mailto:mail@mail.com"> mail@mail.com</a> </span></div>
+            <div class="footercontact"> Téléphone : <a href="tel:+33000000000" class="footertel"> 00.00.00.00.00</a> </div>
+            <div class="footercontact"> Mail : <a href="mailto:mail@mail.com" class="footermail"> mail@mail.com</a> </div>
         </div>
         <div class="col-md-4 col-sm-10 text-center">
             <div class="footerh3 pb-3"> Laissez votre témoignage sur Google </div>
@@ -12,7 +13,7 @@
             </a>
         </div>
     </div>
-    <div class="row bg-secondary text-light p-3">
+    <div class="row copyrow text-light p-3">
         <div class="col-12 copyright"> Copyright © 2019 SOCIETE | <a href="mentionslegales" class="copyright-a">Mentions légales</a> | <a href="CGU" class="copyright-a">CGU</a></div>
     </div>
 
