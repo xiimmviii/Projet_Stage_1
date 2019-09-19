@@ -136,7 +136,16 @@ a.copyright-a:hover {
 ----------------------------------------------------------------------------- */ 
 
 main {
-    background-image: url() fixed;
-    background-size: cover; 
-    
+    background: url(../Projet-Stage---1--/image/background-para.jpg) no-repeat fixed;
+    background-size: 100%;
+    background-color: #e9e5e3;
+    padding-bottom: 10vw;
+
+}
+
+.index-img-titre {
+    background-color: rgba(71, 181, 255, 0.603);
+    color: white;
+    font-size: 3em;
+    font-weight: bolder; 
 }
