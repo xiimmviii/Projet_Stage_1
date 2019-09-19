@@ -56,7 +56,7 @@ nav
 {
     color: rgb(86, 149, 221)!important;
     border: 2px solid rgb(86, 149, 221);
-    margin: -3px; /*pour rétablir la taille de la nav avec la border en hover*/
+     margin: -3px; /*pour rétablir la taille de la nav avec la border en hover */
 }
 
 .navbar-toggler
