@@ -6,7 +6,7 @@ require('header.php');
     <div class="row justify-content-center">
 
         <div class="col-md-2">
-            <img class="img-thumbnail" data-toggle="modal" data-target="#Modal1" src="https://image.jimcdn.com/app/cms/image/transf/none/path/se31ffe0c7aeb19f5/backgroundarea/ib25972f65a52afcf/version/1509638453/image.jpg">
+            <img class="img-thumbnail" data-toggle="modal" data-target="#Modal1" src="image/distrib.jpg">
 
 
 
@@ -14,7 +14,7 @@ require('header.php');
             <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="Modal1Label" aria-hidden="true">
                 <div class="modal-dialog col-10" role="document">
                     <div class="modal-content">
-                        <img src="https://image.jimcdn.com/app/cms/image/transf/none/path/se31ffe0c7aeb19f5/backgroundarea/ib25972f65a52afcf/version/1509638453/image.jpg" class="img-fluid" />
+                        <img src="image/distrib.jpg" class="img-fluid" />
 
                     </div>
                 </div>
