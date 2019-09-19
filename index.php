@@ -76,7 +76,7 @@ require('header.php');
 
 <section>
     <div class="row">
-        <div class="col-12 bottomdevis">
+        <div class="col-12 bottomdevis pb-4">
             <h2 class="text-center mt-3 mb-3"> Votre artisan ............. </h2>
             <div class="row justify-content-center">
                 <div class="col-md-3 text-center mt-3 mb-3">
