@@ -23,15 +23,15 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto mx-auto">
+            <ul class="navbar-nav mr-auto mx-auto p-3">
                 <li class="nav-item mx-3">
-                    <a class="nav-link font-weight-bold" href="#accueil"><i class="fas fa-home"></i> Accueil</a>
+                    <a class="nav-link font-weight-bold" href="index.php"><i class="fas fa-home"></i> Accueil</a>
                 </li>
                 <li class="nav-item mx-3">
-                    <a class="nav-link font-weight-bold" href="#realisations"><i class="far fa-lightbulb"></i> Réalisations</a>
+                    <a class="nav-link font-weight-bold" href="realisations.php"><i class="far fa-lightbulb"></i> Réalisations</a>
                 </li>
                 <li class="nav-item mx-3">
-                    <a class="nav-link font-weight-bold" href="#contact"><i class="fas fa-phone-alt"></i> Contact</a>
+                    <a class="nav-link font-weight-bold" href="contact.php"><i class="fas fa-phone-alt"></i> Contact</a>
                 </li>
             </ul>
         </div>
