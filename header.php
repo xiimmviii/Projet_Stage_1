@@ -11,8 +11,12 @@
 </head>
 <body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-</body>
-</html>
+<header>
+
+<header>
+
+<nav class="nav">
+    <a class="nav-link active" href="#accueil">Accueil</a>
+    <a class="nav-link" href="#realisations">Réalisations</a>
+    <a class="nav-link" href="#contact">Contact</a>
+</nav>
