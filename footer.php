@@ -1,4 +1,4 @@
-<footer>
+<footer class="bg-secondary">
     <div class="row justify-content-center">
         <div class="col-md-4 col-sm-12 m-3">
             <div class="footerh3 pb-3"> Nom de la société </div>
