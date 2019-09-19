@@ -25,13 +25,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#accueil">Accueil</a>
+                    <a class="nav-link" href="#accueil"><i class="fas fa-home"></i> Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#realisations">Réalisations</a>
+                    <a class="nav-link" href="#realisations"><i class="far fa-lightbulb"></i> Réalisations</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="#contact"><i class="fas fa-phone-alt"></i> Contact</a>
                 </li>
             </ul>
         </div>
