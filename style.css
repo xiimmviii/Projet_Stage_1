@@ -14,7 +14,10 @@ body
     overflow-x: hidden;
 }
 
-
+.row {
+    padding: 0px!important;
+    margin: 0px!important;
+}
 
 
 
